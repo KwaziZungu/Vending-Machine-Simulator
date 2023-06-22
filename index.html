@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Vending Machine Simulator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+
+    <body>
+        <section class="header" id="header">
+            <h1>VENDING MACHINE SIMULATOR</h1>
+            <div class="sourceCode">
+                <a href="#" target="_blank">View Source Code</a>
+            </div>
+        </section>
+
+        <div class="disclaimer"><small> <b>Disclaimer: </b>This is a demo application.<br>
+            Please note that no actual payments/purchases/transactions will be processed while application is in use.</small>
+        </div>
+
+        <!-- Items being sold -->
+        <section class="items">
+            <div class="item">
+                <img src="colddrink.webp"> 
+                <div class="itemLabel" id="softdrink"> Softdrink R15 </div> 
+                <button id="buySoftdrink" onclick="buyItem(items[0])">Buy</button>
+            </div>
+            <div class="item">
+                <img src="sandwich.jpg"> 
+                <div class="itemLabel" id="sandwich"> Sandwich R25 </div> 
+                <button id="buySandwich" onclick="buyItem(items[1])">Buy</button>
+            </div>
+            <div class="item">
+                <img src="cupcake.jpg"> 
+                <div class="itemLabel" id="cupcake">  Cupcake R10 </div>
+                <button id="buyCupcake" onclick="buyItem(items[2])">Buy</button>
+            </div>
+            <div class="item">
+                <img src="6001065034027.jpg"> 
+                <div class="itemLabel" id="chocolate bar">  Chocolate Bar R17 </div>
+                <button id="buyChocolate" onclick="buyItem(items[3])">Buy</button>
+            </div>
+        </section>
+
+        <!-- Helps track how much balance is there and some minor details of transactions -->
+        <section class="balanceDetails" id="balanceDetails">
+            <h2>Current Balance: R<span id="currentBalance">50</span></h2>
+            <p id="purchaseDetails">You have yet to make a purchase</p>
+        </section>
+
+        <!-- Things bought are added to this section -->
+        <section class="cart">
+            <h2> Your Cart: </h2>
+            <div id="cart"></div>
+        </section>
+
+        <!-- Page Footer -->
+        <section class="footer">
+            <div class="copyright">
+                <i class="material-icons">copyright</i>
+            </div>
+        </section>
+
+        <!--scripts -->
+        <script src="script.js"></script>
+        <script src="myFunctions.js"></script>
+    </body>
+
+
+</html>
