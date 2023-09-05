@@ -1,0 +1,11 @@
+{
+    "name": "vending-machine-simulator",
+    "version": "1.0.0",
+    "description": "Web application that simulates a vending machine's functionality",
+    "scripts": {
+      "start": "http-server"
+    },
+    "dependencies": {
+      "http-server": "^0.12.3"
+    }
+  }
