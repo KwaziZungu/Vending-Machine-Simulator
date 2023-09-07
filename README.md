@@ -1,6 +1,7 @@
 # Vending-Machine-Simulator
 
 Click [here](https://kwazizungu.github.io/Vending-Machine-Simulator/) to view application demo.
+
 ## Note
 Demo is to be viewed with a laptop or any other widescreen device, excluding cellphones, e tc.
 
