@@ -1,6 +1,8 @@
 # Vending-Machine-Simulator
 
 Click [here](https://kwazizungu.github.io/Vending-Machine-Simulator/) to view application demo.
+## Note
+Demo is to be viewed with a laptop or any other widescreen device, excluding cellphones, e tc.
 
 ## About This Application
 This basic application simulates the functionality of a vending machine. The currency used is the south african rand (ZAR). <br>
